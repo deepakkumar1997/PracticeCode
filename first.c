@@ -1,11 +1,11 @@
 #include<stdio.h>
-void print();
+void print();//This is function declaration
 int main()
 {
-    print();
+    print();//This is function calling
     return 0;
 }
-void print()
+void print()//This is function definition
 {
     printf("Hello World!");
 }
